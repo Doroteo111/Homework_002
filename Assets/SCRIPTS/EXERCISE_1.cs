@@ -15,13 +15,12 @@ public class EXERCISE_1 : MonoBehaviour
         {
             Debug.Log("This number is positive");
 
-        }else{
-            if (x <= 0)
-            {
-                Debug.Log("This number is zero");
-            }
+        }else if (x < 0) {
+            Debug.Log("This number is negative");
 
-
+        }else {
+            Debug.Log("This number is zero");
         }
     }
+    
 }
