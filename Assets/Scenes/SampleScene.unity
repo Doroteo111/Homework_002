@@ -444,6 +444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f200c7a65eac4f74babf93f4c7b87a3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  birthYear: 1974
 --- !u!65 &1523863999
 BoxCollider:
   m_ObjectHideFlags: 0

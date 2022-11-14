@@ -4,12 +4,9 @@ using UnityEngine;
 
 public class EXERCISE_1 : MonoBehaviour
 {
-    //Create a float variable. Display in the console whether the number is positive, zero
-    // or negative.
-
     public float x = 4;
     
-    private void Start()
+    private void Start()        //decision operation
     {
         if (x > 0)
         {
