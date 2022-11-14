@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class EXERCISE_1 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    //Create a float variable. Display in the console whether the number is positive, zero
+    // or negative.
 
-    // Update is called once per frame
-    void Update()
+    public float x = 4;
+    
+    private void Start()
     {
-        
+        if (x > 0)
+        {
+            Debug.Log("This number is positive");
+
+        }else{
+            if (x <= 0)
+            {
+                Debug.Log("This number is zero");
+            }
+
+
+        }
     }
 }
