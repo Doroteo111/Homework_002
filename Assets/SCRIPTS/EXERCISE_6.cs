@@ -20,9 +20,9 @@ public class EXERCISE_6 : MonoBehaviour
     public float distanceTotal = 10f;
     private float distanceLeft;
 
-    private void Strat()
+    private void Start()
     {
-        distanceLeft = distanceTraveled - distanceTotal;
+        distanceLeft = distanceTotal-distanceTraveled;
 
         if (distanceTraveled > distanceTotal)
         {
