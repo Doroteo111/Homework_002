@@ -14,7 +14,7 @@ public class EXERCISE_7 : MonoBehaviour
     //variables are 7 and 10, then the following should be displayed: “7 x 10 = 70”
 
 
-   /* public string operation = "sum";
+   public string operation = "sum";
 
     public float x = 4f;
     public float y = 10f;
@@ -23,7 +23,23 @@ public class EXERCISE_7 : MonoBehaviour
     {
         if (operation == "sum")
         {
-            Debug.Log(¨{x}+{y}=);
+            Debug.Log($"{x}+{y}= {x + y}");
+
         }
-    }*/
+        else if (operation == "subtraction")
+        {
+            Debug.Log($"{x}-{y}= {x - y}");
+
+        }
+        else if (operation == "product")
+        {
+            Debug.Log($"{x}*{y}= {x * y}");
+
+        }
+        else if (operation == "division")
+        {
+            Debug.Log($"{x}/{y}= {x / y}");
+        }
+
+    }    
 }

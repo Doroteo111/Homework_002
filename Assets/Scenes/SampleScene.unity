@@ -1221,6 +1221,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0144a9caa3932f4da99355cb7300b86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  operation: sum
+  x: 4
+  y: 10
 --- !u!65 &1654935188
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1331,6 +1334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77340d4c65441124f9c4042e894dae60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wantsVegetarianOption: 1
 --- !u!65 &1995151776
 BoxCollider:
   m_ObjectHideFlags: 0
