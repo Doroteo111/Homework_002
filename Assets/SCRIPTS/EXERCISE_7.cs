@@ -12,4 +12,18 @@ public class EXERCISE_7 : MonoBehaviour
 
     //For example, if we specify that the value of the string variable is “product” and the two  float
     //variables are 7 and 10, then the following should be displayed: “7 x 10 = 70”
+
+
+   /* public string operation = "sum";
+
+    public float x = 4f;
+    public float y = 10f;
+
+    private void Start()
+    {
+        if (operation == "sum")
+        {
+            Debug.Log(¨{x}+{y}=);
+        }
+    }*/
 }
