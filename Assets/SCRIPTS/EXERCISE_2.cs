@@ -4,10 +4,8 @@ using UnityEngine;
 
 public class EXERCISE_2 : MonoBehaviour
 {
-    //Create an integer variable that is supposed to store a year. Display in the console 
-    //which sign of the Chinese horoscope the year belongs to.
-
-    public int birthYear = 2000; 
+   
+    public int birthYear = 2000;  //operator decision
 
     private void Start()
     {

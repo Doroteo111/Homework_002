@@ -6,7 +6,7 @@ public class EXERCISE_9 : MonoBehaviour
 {
     public bool wantsVegetarianOption;
 
-    private void Start()
+    private void Start()  //operator decision (negative form)
     {
         if (wantsVegetarianOption == false) {
             Debug.Log("“Non-vegetarian option coming soon");
